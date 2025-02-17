@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" type="text/css" href="CheyDoesNailsStyling.css">
+</head>
+
+<body>
+    <!-- Header tab with title  -->
+    <header>
+        <h1>Booking</h1>
+    </header>
+
+    <!-- Navigation tab with portfolio, about me, services, and bookings-->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="AboutMe.html">About Me</a>
+        <!-- <a href="Portfolio.html">Portfolio</a> -->
+        <a href="Services.html">Services</a>
+        <a href="Booking.html">Booking</a>
+    </nav>
+
+    <section id="booking" class="booking">
+    <p>Please fill out the form below to request a booking:</p>
+    <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="type">Nail Length:</label>
+        <select id="type" name="type" required>
+            <option value="XXL">XXL (18-21 magnets) - $90</option>
+            <option value="XL">XL (14-17 magnets) - $80</option>
+            <option value="L">L (10-13 magnets) - $70</option>
+            <option value="ML">ML (6-9 magnets) - $60</option>
+            <option value="M">M (3-5 magnets) - $55</option>
+            <option value="S">S (1-2 magnets) - $45</option>
+        </select>
+
+        <label for="type">Nail Design:</label>
+        <select id="type" name="type" required>
+            <option value="FullBlingOut">Full Bling Out - $5/finger</option>
+            <option value="FrenchTipBlingOut">French Tip Bling Out - $2/finger</option>
+            <option value="ComplexDesigns">Complex Designs - $ DM</option>
+        </select>
+
+        <label for="type">Extras:</label>
+        <select id="type" name="type" required>
+            <option value="3dFlower">3d Flower - $1/finger</option>
+            <option value="Charm">Charm - $2 each</option>
+            <option value="Rhinestones">Rhinestones - $1/finger</option>
+            <option value="Fill">Fill - $40</option>
+            <option value="Soak">Soak - $15</option>
+        </select>
+
+        <button type="submit">Submit Booking</button>
+    </form>
+
+    <h3>Policies</h3>
+    <p><strong>Deposits:</strong> A deposit is required to secure your booking.</p>
+    <p><strong>Cancellations:</strong> Cancellations must be made 24 hours in advance to avoid losing your deposit.</p>
+    </section>
+
+    <footer>
+        <!-- Instagram Link -->
+        <a href="https://www.instagram.com/cheydoesnails_/" class="igLogo">@CheyDoesNails_<img src="IGLogo.png" alt="IG Logo"/></a>
+        <a href="Developers.html">Developers</a>
+        <p>Copyright &copy; 2025 CheyDoesNails. All rights reserved.</p>
+    </footer>
+</body>
+</html>

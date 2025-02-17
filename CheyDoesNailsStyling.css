@@ -1,0 +1,179 @@
+:root {
+    --earthy-sage-green: #003B36;
+    --earthy-brown: #341C09;
+    --earthy-yellow: #FCC99C; 
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    text-shadow: 10px;
+    padding: 15px;
+    align-items: center;
+    width: 100%;
+    color: var(--earthy-brown); 
+}
+
+a {
+    color: var(--earthy-brown);
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--earthy-sage-green);
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+nav a {
+    margin: 0 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--earthy-yellow); 
+}
+
+.container {
+    padding: 3rem;
+    margin: 0 auto;
+    color: black;
+    max-width: 1200px; 
+}
+
+/* Tabs */
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px; 
+    border-radius: 1px;
+    color: var(--earthy-brown);
+}
+
+.aboutMe, .services, .booking, .policies, .portfolio {
+    color: var(--earthy-brown);
+    background-color: var(--earthy-yellow); 
+    padding: 20px;
+    box-shadow: 0 4px 8px;
+    border-radius: 10px;
+    margin: 40px auto;  
+}
+
+.portfolio img {
+    background-color: var(--earthy-brown);
+    width: 100%;
+    max-width: 300px;
+    margin: 0.5rem;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.myPortfolio {
+    text-decoration: underline;
+    color: purple;
+}
+
+.developersText {
+    text-decoration: underline;
+}
+
+.services p {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+}
+
+/* Form Section */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    font-size: 25px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    max-width: 400px;
+    padding: 1rem;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 2px solid var(--earthy-sage-green);
+    margin: 1rem 0;
+}
+
+form button {
+    background-color: var(--earthy-brown);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+}
+
+form button:hover {
+    background-color: var(--earthy-yellow);
+    color: var(--earthy-brown);
+}
+
+/* Footer */
+footer {
+    background-color: var(--earthy-sage-green);
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+}
+
+footer h1 {
+    margin: 0;
+    color: var(--earthy-yellow);
+}
+
+footer a {
+    color: white;
+}
+
+.aboutMeFooter footer {
+    position: fixed;
+}
+
+/* Hyperlinked Buttons */
+.igLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.igLogo img {
+    width: 50px;
+}
+
+
