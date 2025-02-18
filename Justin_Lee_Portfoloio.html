@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Lee | Portfolio</title>
+    <link rel="stylesheet" href="justinPortfolio.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5F5F5;
+            color: #333;
+        }
+        header {
+            background-color: #4B2E83;
+            color: #FFF;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            height: auto;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        nav {
+            background-color: #85754D;
+            padding: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #FFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            background-color: #FFF;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+        section h2 {
+            color: #4B2E83;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        table, th, td {
+            border: 1px solid #AAA;
+        }
+        th, td {
+            padding: 0.5rem;
+            text-align: left;
+        }
+        th {
+            background-color: #EAE0C8;
+        }
+        footer {
+            background-color: #4B2E83;
+            color: #FFF;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        button {
+            background-color: #4B2E83;
+            color: #FFF;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        button:hover {
+            background-color: #85754D;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="UWT.jpg" alt="UW Logo">
+        <h1>Justin Lee</h1>
+        <p>Undergraduate IT Student | Aspiring IT Specialist</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#ProgrammingSkills">Programming Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contacts">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="About">
+        <h2>About Me</h2>
+        <p>Hello, I'm Justin Lee, an undergraduate IT student passionate about software and website development. I am eager to gain hands-on experience and contribute to innovative projects. I'm looking for an internship to further develop my technical and professional skills.</p>
+    </section>
+
+    <section id="ProgrammingSkills">
+        <h2>Programming Skills</h2>
+        <hr>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skills</th>
+                    <th>Proficiency</th>
+                    <th>Experience</th>
+                    <th>Projects</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Proficient</td>
+                    <td>3 months</td>
+                    <td>Portfolio</td>
+                </tr>
+                <tr>
+                    <td>Wix</td>
+                    <td>Proficient</td>
+                    <td>3 months</td>
+                    <td>PISA Website</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Basic</td>
+                    <td>1 months</td>
+                    <td>Calculator</td>
+                </tr>
+                <tr>
+                    <td>C#</td>
+                    <td>Basic</td>
+                    <td>1 months</td>
+                    <td>List Organizer</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="Projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li><strong>Personal Portfolio</strong> - The website you're currently viewing!</li>
+            <li><strong>PISA Website</strong> - Managed the creation of the Pacific Islander Student Alliance website via Wix as my first IT project.</li>
+            <li><strong>CheyenneDoesNail</strong> - Website created for Cheyenne's nail business!</li>
+        </ul>
+    </section>
+
+    <section id="Contacts">
+        <h2>Contact Me</h2>
+        <form action="mailto:justinlovesokinawa@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>If you would like to get in touch with me, you can reach me through the following:</p>
+        <ol>
+            <li><strong>Email:</strong> justinlovesokinawa@gmail.com</li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/ShushiSniper?tab=repositories" target="_blank">Justin Lee</a></li>
+        </ol>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Justin Lee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
