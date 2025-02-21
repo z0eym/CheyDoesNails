@@ -102,6 +102,18 @@ ul {
     text-align: left;
 }
 
+.get-started-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    font-size: 25px;
+}
+
 /* Form Section */
 form {
     display: flex;
