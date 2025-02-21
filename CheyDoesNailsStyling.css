@@ -112,7 +112,7 @@ ul {
     max-width: 100px;
     text-align: left;
     font-size: 25px;
-    background-color: var(--earthy-yellow);
+    color: var(--earthy-yellow);
 }
 
 /* Form Section */
