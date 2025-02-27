@@ -121,11 +121,6 @@ section {
     margin-top: 20px;
 }
 
-.services a {
-    text-decoration: underline;
-    color: var(--yellow);
-}
-
 .aboutMe {
     display: flex;
 }
