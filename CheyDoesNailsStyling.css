@@ -130,6 +130,11 @@ section {
     display: flex;
 }
 
+.serviceBtn {
+    text-decoration: underline;
+    color: var(--yellow);
+}
+
 .button-container {
     display: flex; 
     justify-content: center; 
@@ -185,6 +190,10 @@ ul {
     border-radius: 1px;
 }
 
+.devTab a {
+    color: var(--yellow);
+    text-decoration: underline;
+}
 
 /* Form Section */
 form {
